@@ -1,0 +1,47 @@
+div#flag {
+    position: absolute;
+    z-index: 9;
+    margin: 25px 12px;
+}
+
+input#billing_phone {
+    padding-left: 50px !important;
+}
+
+.wfacp-flag-list {
+    display: none;
+    position: fixed;
+    top: 100px;
+    margin-left: 8px;
+    z-index: 9999;
+}
+
+.iti__arrow--up {
+    border-top: none;
+    border-bottom: 4px solid #555;
+}
+
+.iti__arrow {
+    position: absolute !important;
+    z-index: 99 !important;
+    top: 30px !important;
+    margin-left: 35px !important;
+    width: 0;
+    height: 0;
+    border-left: 5px solid transparent;
+    border-right: 5px solid transparent;
+    border-top: 6px solid #555;
+    cursor: pointer;
+}
+
+.iti__country-list {
+    z-index: 9999;
+}
+.wfacp-flag-list ul li.iti__country {
+    padding: 3px 11px !important;
+}
+
+.wfacp-flag-list ul li.iti__country:hover {
+    background: #ddd;
+    cursor: pointer;
+}
